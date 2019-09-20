@@ -2,8 +2,27 @@ nav {
     background: #F8F9FB;
     .nav-link {
         color:#B4B5B7;
+        
     }
     .active {
         color: #78787A;
+    }
+}
+
+footer{
+    background: #343a40;
+    color: #c6ccd2;
+    .hashtag{
+        color: #ced4da;
+        font-weight: 700;
+    }
+    a{
+        color:#0b89e2;
+        text-decoration: underline;
+    }
+
+    .active {
+        color: #c6ccd2;
+        text-decoration: none;
     }
 }
