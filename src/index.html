@@ -4,63 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gulp & SCSS</title>
+    <title>Home</title>
     
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+    <!-- Navigation -->
+<nav class="navbar">
+    <div class="container justify-content-center justify-content-center justify-content-sm-between">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img class=""src="/img/logo.svg" alt="" height="87px"
+                    width="100px">
+                </a>
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Coffee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Story</a>
+                </li>
+            </ul>
+    </div>
+    </nav>
+    
     
 
-    <main>
-      <h1>Generic Hipster Coffee</h1>
-      <h2>Specialty coffee, fresh food & local community. </h2>
-      <img src="img/counter.jpg" alt="coffee shop counter">
+    <main class="container">
+      <div>
+        <h1>GENERIC HIPSTER COFFEE</h1>
+        <h2>SPECIALITY COFFEE, FRESH FOOD & LOCAL COMMUNITY. </h2>
+      </div>
+      
+      <img src="img/counter.jpg" alt="coffee shop counter" class="fluid">
+
       <div class="row">
-        <div class="col">
+        <div class="col-sm-12 col-md-4">
             <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title</p>
-                    <a href="#" class="card-link">Another link</a>
+                <div class="card-body float-left">
+                    <h5 class="card-title">Opening hours</h5>
+                    <p class="card-text">sunday to  thursday: 8 am to 11 pm <br>
+                      friday to  saturday: 8 am to 1 am </p>
+                    
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-4">
             <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title</p>
-                    <a href="#" class="card-link">Another link</a>
+                <div class="card-body float-left">
+                    <h5 class="card-title">Book a table </h5>
+                    <p class="card-text">Call +1 415-321-4567 
+                      </p>
+                    
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-4">
             <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title</p>
-                    <a href="#" class="card-link">Another link</a>
+                <div class="card-body float-left">
+                    <h5 class="card-title">Address</h5>
+                    <p class="card-text">321 Ivy St.San Francisco, CA 94102</p>
+                    
                 </div>
             </div>
         </div>
     </div>
 
-        </div>
-      </div>
+    <img src="img/map.png" alt="map of coffee shop" class="fluid">
+  
+
+
     </main>
     
 </body>
